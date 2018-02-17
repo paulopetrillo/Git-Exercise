@@ -2,13 +2,26 @@
 <h2><b>Preparatório</b></h2>
 <p>Antes de tudo é necessario realizar a instalação do Git: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
 <p>Após feita a instalação abra o terminal e utilize o comando Git, caso apareça informações sobre comandos relativos ao Git a instalação foi feita com sucesso, caso contrário há de verificar, pois a instalação não foi feita corretamente.(Até onde eu sei, kkkk...)</p>
-Obs. Não abordaremos fork nessa pŕatica.
 
-<p>A primeira parte é realizar um clone deste projeto em seu computador, antes de tudo vá a uma pasta em que queira que o projeto seja clonado. (Dica: Comando `cd` lhe permite navegar entre diretorios.)</p>
+<p>O exercicio será composto de alguns comandos padrões com o objetivo de colocar seu nome dentro do arquivo participantes</p>
 
+<h2><b>Prática</b></h2>
+<p>Faça um clone do projeto em seu computador</p>
 <b>Comando: <pre>git clone https://github.com/Didimoykds/Git-Exercise.git</pre></b>
+<p>Abra o projeto com alguma IDE ou Editor de Texto e então crie uma nova branch</p>
+<b>Comando: <pre>git checkout -b seu-nome</pre></b>
+<p>Coloque seu nome no arquivos participantes, porém siga o padrão do arquivo, salve sua modificações.</p>
+<p>Adicione sua modificações ao stash e logo após efetive sua modificação</p>
+<b>Comando para adicionar a stash: <pre>git add .</pre></b>
+<b>Comando para efetivar a modificação: <pre>git commit -m "Eu adicionei meu nome ao arquivo participantes.md"</pre></b>
+<p>Logo após envie para o repositorio remoto origin(https://github.com/Didimoykds/Git-Exercise.git)</p>
+<b>Comando para ver em qual branch você está: <pre>git status</pre></b>
+<b>Comando para enviar as modificações para o repositorio: <pre>git push origin nome-branch</pre></b>
+<p>Agora atualize a página e provavelmente o github irá lhe mostrar que é possivel realizar uma pull request para a branch master, faça a PR e então vou avaliar e mergear.</p>
 
-<p>Após o fim da transferência do projeto, ` escreva git branch ` para que você consiga ver as branchs existentes em seu projeto. Provavelmente em seu terminal mostrará somente a branch <b>Master</b>, pois é a única branch existente em seu projeto.</p>
+<b>A pratica não teve como intenção, explicar como o git funciona ou até mesmo todos os comandos, o exericicio só teve como objetivo, dar um 'primeiro contato' com a ferramenta.</b>
 
-<p>Para que você consiga clonar todas as branchs de um repositorio, você precisa executar o comando <pre> git fetch "repositorio"</pre>, como já possuimos um repositorio remoto setado na origin, que é o https://github.com/Didimoykds/Git-Exercise.git, só precisamos dar um <pre>git fetch origin</pre>. ( origin = https://github.com/Didimoykds/Git-Exercise.git )
-agora escreva novamente o comando <pre>git branch</pre> e verá que seu projeto agora possui novas branchs.</p>
+
+
+
+
