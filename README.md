@@ -8,7 +8,7 @@ Obs. Não abordaremos fork nessa pŕatica.
 
 <b>Comando: <pre>git clone https://github.com/Didimoykds/Git-Exercise.git</pre></b>
 
-<p>Após o fim da transferência do projeto, escreva <pre> git branch</pre> para que você consiga ver as branchs existentes em seu projeto. Provavelmente em seu terminal mostrará somente a branch <b>Master</b>, pois é a única branch existente em seu projeto.</p>
+<p>Após o fim da transferência do projeto, ` escreva git branch ` para que você consiga ver as branchs existentes em seu projeto. Provavelmente em seu terminal mostrará somente a branch <b>Master</b>, pois é a única branch existente em seu projeto.</p>
 
 <p>Para que você consiga clonar todas as branchs de um repositorio, você precisa executar o comando <pre> git fetch "repositorio"</pre>, como já possuimos um repositorio remoto setado na origin, que é o https://github.com/Didimoykds/Git-Exercise.git, só precisamos dar um <pre>git fetch origin</pre>. ( origin = https://github.com/Didimoykds/Git-Exercise.git )
 agora escreva novamente o comando <pre>git branch</pre> e verá que seu projeto agora possui novas branchs.</p>
