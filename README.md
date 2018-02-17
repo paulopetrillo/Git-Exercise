@@ -3,6 +3,12 @@
 <p>Antes de tudo é necessario realizar a instalação do Git: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
 <p>Após feita a instalação abra o terminal e utilize o comando Git, caso apareça informações sobre comandos relativos ao Git a instalação foi feita com sucesso, caso contrário há de verificar, pois a instalação não foi feita corretamente.(Até onde eu sei, kkkk...)</p>
 
+<ul>
+  <li>Adicione o seu username, ao git global.</li>
+  <pre>git config --global user.name = "seu nick" (O meu seria Didimoykds)</pre>
+  <li>Adicione o seu email, ao git global.</li>
+  <pre>git config --global user.name = "seu e-mail" (O meu seria didimoykds@gmail.com)</pre>
+</ul>
 <p>O exercicio será composto de alguns comandos padrões com o objetivo de colocar seu nome dentro do arquivo participantes</p>
 
 <h2><b>Prática</b></h2>
