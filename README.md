@@ -7,7 +7,7 @@
   <li>Adicione o seu username, ao git global.</li>
   <pre>git config --global user.name = "seu nick" (O meu seria Didimoykds)</pre>
   <li>Adicione o seu email, ao git global.</li>
-  <pre>git config --global user.name = "seu e-mail" (O meu seria didimoykds@gmail.com)</pre>
+  <pre>git config --global user.email = "seu e-mail" (O meu seria didimoykds@gmail.com)</pre>
 </ul>
 <p>O exercicio será composto de alguns comandos padrões com o objetivo de colocar seu nome dentro do arquivo participantes</p>
 
